@@ -1,2 +1,5 @@
 class Song 
-  attr_accessor :n
+  attr_accessor :title, :artist 
+end 
+
+song = Song.new 
